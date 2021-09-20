@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "0960b76b-7aba-4147-bfe8-cc7b96240f4d",
+    "appType": "clockface",
+    "appDisplayName": "Assignment 1",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Assignment 1"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

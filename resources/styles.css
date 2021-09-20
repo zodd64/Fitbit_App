@@ -1,0 +1,62 @@
+.background {
+  viewport-fill: red;
+}
+
+#myLabel {
+  font-size: 54;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+40;
+  fill: fb-red;
+}
+
+#myDate {  
+  font-size: 28;
+  font-family: System-Bold;
+  text-length: 38;
+  text-anchor: middle;
+  x: 50%;
+  y: 40%;
+  fill: white; 
+}
+
+#myHeartRate{
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 38;
+  text-anchor: start;
+  x: 92;
+  y: 49;
+  fill: white; 
+  opacity: 0;
+}
+
+#iconHRM{
+  width:18;
+  height:18;
+  y:31;
+  x:65;
+  opacity:0;
+  fill:white;
+}
+
+#iconHRM2{
+  width:18;
+  height:18;
+  y:31;
+  x:65;
+  opacity:0;
+  fill:white;
+}
+
+#lowHR{
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 38;
+  text-anchor: start;
+  x: 92;
+  y: 49;
+  fill: white;
+}

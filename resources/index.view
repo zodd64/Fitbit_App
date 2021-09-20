@@ -1,0 +1,24 @@
+<svg class="background">
+  
+  <image href="black_bg.jpg" />
+  
+  <rect height="100%" width="100%" x="0" y="0" fill ="white" opacity="0.2" />
+
+  
+  <use id="iconHRM" href="#heartIcon" />
+  
+  <text id="lowHR" />
+  <text id="myLabel" />
+  <text id="myDate" />
+  <text id="myHeartRate" />
+  <use id="iconHRM2" href="#heartIcon2" />
+  
+  <line x1="17%" x2="83%" y1="30%" y2="30%" fill= "white" opacity="0.2" stroke-width="2" />
+  <line x1="17%" x2="83%" y1="45%" y2="45%" fill= "white" opacity="0.2" stroke-width="2" />
+  <line x1="17%" x2="83%" y1="70%" y2="70%" fill= "white" opacity="0.2" stroke-width="2" />
+
+  
+
+</svg>
+
+

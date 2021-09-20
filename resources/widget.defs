@@ -1,0 +1,29 @@
+<svg>
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/system_widget.defs" />
+    
+    <symbol id="heartIcon">
+      <g transform="translate(50%,50%)">
+        <image id="icon" x="-50%" y="-50%" href="heart_hollow.png" />
+        <animateTransform attributeName="transform" attributeType="scale"
+          begin="highlight" end="unload;unhighlight" to="0.8"
+          final="keep" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" attributeType="scale"
+          begin="highlight+0.5" end="unload;unhighlight" to="1.2"
+          final="keep" repeatCount="indefinite" />      
+      </g>
+    </symbol>  
+    <symbol id="heartIcon2">
+      <g transform="translate(50%,50%)">
+        <image id="icon" x="-50%" y="-50%" href="heart.png" />
+        <animateTransform attributeName="transform" attributeType="scale"
+          begin="highlight" end="unload;unhighlight" to="0.8"
+          final="keep" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" attributeType="scale"
+          begin="highlight+0.5" end="unload;unhighlight" to="1.2"
+          final="keep" repeatCount="indefinite" />      
+      </g>
+    </symbol>      
+  </defs>
+</svg>
